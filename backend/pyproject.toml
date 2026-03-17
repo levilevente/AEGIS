@@ -1,0 +1,23 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Backend of the AEGIS application"
+authors = [
+    {name = "Daróczi Levente",email = "daroczilevente2@gmail.com"}
+]
+license = {text = "Apache License"}
+readme = "README.md"
+requires-python = ">=3.12, <4.0.0"
+dependencies = [
+]
+
+[dependency-groups]
+dev = [
+    "langgraph (>=1.1.2,<2.0.0)",
+    "ruff (>=0.15.6,<0.16.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
